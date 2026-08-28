@@ -1,0 +1,313 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+/*=========HOME===========*/
+.home{
+    background-image: url("image/pictures/shampoo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no repeat;
+    font-size: 20px;
+}
+.hero{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+  .hero h2{
+    font-size: 55px;
+    margin-bottom: 5px;
+    margin-top: 8px;
+    text-shadow: 3px 3px 8px black;
+  }  
+.hero p{
+    font-size: 20px;
+    max-width: 700px;
+    text-shadow: 2px 2px 5px black;
+    margin-top: 2px;
+}
+.header{
+    background-color: #ff4fa3;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.header h1{
+    margin-bottom: 15px;
+}
+.header button{
+    border-radius: 8px;
+    outline-color: #ff4fa3;
+}
+.navbar{
+ display: flex;
+ justify-content:center;
+ gap: 30px;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    color: black;
+    font-size: 16px;
+    margin: 8px;
+}
+.navbar a:hover{
+    background-color: white;
+    color: deeppink;
+    border-radius:2px;
+}
+section{
+    padding: 30px;
+}
+h2{
+    color: #ff1493;
+    margin-bottom: 10px;
+}
+p{
+    margin-bottom: 15px;
+}
+img{
+    border-radius: 10px;
+    margin: 15px 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+ul,ol{
+    margin-left: 30px;
+    font-size: 16;
+}
+.footer{
+    background-color: #ff69b4;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+/*product*/
+.products{
+    padding: 60px 8%;
+}
+.products h2{
+    text-align: center;
+    color: #ff1493;
+    margin-bottom: 15px;
+}
+.products p{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.category-title{
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+.mypro{
+    background-color: antiquewhite;
+}
+.product-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.product-card{
+    width: 280px;
+    background: white;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,.15);
+    transition: .3s;
+}
+.product-card:hover{
+    transform: translateY(-8px);
+}
+.product-card img{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+.product-card h3{
+    color: #ff1493;
+    margin: 15px;
+    text-align: center;
+}
+.product-card p{
+    padding: 0 15px 20px;
+}
+/*about*/
+.about-hero{
+   text-align: center;
+   padding: 60px 10%;
+}
+.about-hero h2{
+    font-size: 32px;
+    color: #ff1493;
+    margin-bottom: 10px;
+}
+.about-hero img{
+     width: 500px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.2);
+    margin: 20px 0;
+}
+.mission{
+   background: #fff;
+   padding: 50px 10%;
+   text-align:center;
+    padding: 0%;
+    border-radius: 2px;
+}
+.mission h2{
+    color: #ff1493;
+    margin-bottom: 10px;
+}
+.mission p{
+    max-width: 800px;
+    margin: auto;
+    line-height: 1.8;
+}
+.vision{
+    background: #fff8fc;
+    padding: 50px 10%;
+    text-align: center;
+    padding: 5px;
+}
+.vision h2{
+    color: #ff1493;
+    margin-bottom: 20px;
+}
+.vision p{
+    max-width: 800;
+    margin: auto;
+}
+.values{
+    padding: 50px 10%;
+    text-align: center;
+    padding: 2px;
+    border-radius: 2px;
+}
+.values h2{
+    color: #ff1493;
+    margin-bottom: 25px;
+}
+.value ul{
+    list-style: none;
+}
+.value li{
+    background-color: white;
+    width: 250px;
+    color: #e56b6f;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: 0 3px 10px rgba(0,0,0,.15);
+}
+.team{
+    padding: 10px 5%;
+    text-align: center;
+}
+.team h2{
+    color: #ff1493;
+    margin-bottom: 10px;
+}
+.team img{
+    width: 500px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.2);
+    margin: 20px 0;
+}
+.team p{
+    max-width: 800px;
+    margin: auto;
+    line-height: 1.8;
+}
+hr{
+    border:none;
+    height: 2px;
+    background: #ffd6e7;
+    width: 90%;
+    margin: 30px auto;
+}
+/*tips*/
+.tips-intro{
+    text-align: center;
+    font-size: 40;
+    margin-bottom: 0%;
+    padding: 0%;
+}
+.tips-hero{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20;
+}
+.tips{
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+.tips img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.tips h2{
+    margin-bottom: 5px;
+}
+.tips p{
+    margin-top: 10px;
+}
+/*=====================
+     contacts
+=======================*/
+.contact{
+    text-align: center;
+    padding: 10px 10%;
+}
+.contact-intro{
+    font-size: 16px;
+    margin-bottom: 2px;
+}
+.contact-info{
+    flex: 1;
+    min-width: 200px;
+    background: #fff8fc;
+    padding: 5px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.15);
+    text-align: left;
+}
+.contact-form{
+    flex: 1;
+    min-width: 100px;
+    min-height: 100px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0, .15);
+}
+.contact-form input,contact-form textarea{
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+.contact-form input[type="submit"]{
+    background: #ff1493;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: .3s;
+}
+.contact-form input[type="submit"]:hover{
+    background: #e60073;
+}
