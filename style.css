@@ -9,8 +9,8 @@
 .home{
     background-image: url("image/pictures/shampoo.jpg");
     background-size: cover;
-    background-position: center;
-    background-repeat: no repeat;
+    background-position:center;
+    background-repeat:no-repeat;
     font-size: 20px;
 }
 .hero{
@@ -25,7 +25,7 @@
   .hero h2{
     font-size: 55px;
     margin-bottom: 5px;
-    margin-top: 8px;
+    margin-top: 90px;
     text-shadow: 3px 3px 8px black;
   }  
 .hero p{
@@ -40,39 +40,53 @@
     padding: 10px;
     text-align: center;
     font-size: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 .header h1{
-    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 0;
+    
 }
 .header button{
     border-radius: 8px;
     outline-color: #ff4fa3;
 }
-.navbar{
- display: flex;
- justify-content:center;
- gap: 30px;
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
 }
-.navbar a{
-    text-decoration: none;
-    color: white;
+.logo {
+    margin: 0;
+    font-family: Georgia, serif;
+    font-size: 28px;
     font-weight: bold;
+    letter-spacing: 1px;
+}
+.nav-links a{
+    text-decoration: none;
+    font-weight: 400;
     color: black;
     font-size: 16px;
-    margin: 8px;
+    padding:8px 5px;
+    position: relative;
+    transition: 0.4s;
 }
-.navbar a:hover{
+.nav-links a:hover{
     background-color: white;
     color: deeppink;
     border-radius:2px;
 }
-section{
-    padding: 30px;
+section{ 
+    padding-top: 100px  50px 50px;
 }
 h2{
-    color: #ff1493;
+    color: deeppink;
     margin-bottom: 10px;
+   
 }
 p{
     margin-bottom: 15px;
