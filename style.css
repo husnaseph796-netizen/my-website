@@ -1,5 +1,5 @@
 *{
-    margin:0;
+    margin:0px;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
@@ -81,11 +81,13 @@
     border-radius:2px;
 }
 section{ 
-    padding-top: 100px  50px 50px;
+    padding-top:100px;
 }
+
 h2{
     color: deeppink;
     margin-bottom: 10px;
+    margin-top: 1px;
    
 }
 p{
@@ -115,12 +117,12 @@ ul,ol{
 }
 /*product*/
 .products{
-    padding: 60px 8%;
+    padding: 0%;
 }
 .products h2{
     text-align: center;
     color: #ff1493;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 .products p{
     text-align: center;

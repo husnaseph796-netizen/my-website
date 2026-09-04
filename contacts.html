@@ -38,23 +38,28 @@
 </section>
     <section class="contact-form">
         <h2>Send Us a Message</h2>
-        <form action="" method="">
+        <form id="contactForm" action="" method="">
             <label>Full Name:</label><br>
-            <input type="text" placeholder="enter your
+            <input type="text" id="name" placeholder="enter your
             full name"><br/>
+
             <label>Email Address</label><br>
-            <input type="email" placeholder="Enter your
+            <input type="email" id="email" placeholder="Enter your
             email"><br>
+
             <label>Phone Number</label><br>
-            <input type="tel" placeholder="Enter your
+            <input type="tel" id="phone" placeholder="Enter your
             phone no."><br>
+
             <label>Subject</label><br>
-            <input type="text" placeholder="subject"><br>
+            <input type="text" id="subject" placeholder="subject"><br>
             <label>Message</label><br>
-            <textarea rows="6" cols="40" placeholder="Write your message here.....">
+
+            <textarea id="message" rows="6" cols="40" placeholder="Write your message here.....">
             </textarea>
             <br>
-            <input type="submit" value="send message">
+
+            <button type="button" onclick="checkform()">SEND</button>
         </form>
     </section>
     <section class="social media">
@@ -72,5 +77,6 @@
         <p>Beauty Begins With Confidence</p>
         <p>&copy; 2026 All Right Reserved</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
