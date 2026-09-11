@@ -1,45 +1,34 @@
-*{
-    margin:0px;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.6;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
 }
 /*=========HOME===========*/
 .home{
-    background-color:rgb(rgb(241, 129, 129), rgb(241, 250, 241), rgb(235, 235, 253))
-    background-size: cover;
-    background-position:center;
-    background-repeat:no-repeat;
     font-size: 20px;
 }
-.hero{
-    height: 90vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+.hero {
+  padding-top: 20px !important; /* Inasogeza h2 juu zaidi */
+  padding-bottom: 20px !important;
+  margin-top: 0 !important;
 }
+
   .hero h2{
+    margin-top: 0 !important;
+    text-shadow: none;
     font-size: 55px;
-    margin-bottom: 5px;
-    margin-top: 90px;
-    text-shadow: 3px 3px 8px black;
+
   }  
 .hero p{
     font-size: 20px;
     max-width: 700px;
     text-shadow: 2px 2px 5px black;
     margin-top: 2px;
-}
-.header{
-    background-color: #ff4fa3;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    font-size: 30px;
-    margin-bottom: 5px;
 }
 .header h1{
     font-size: 20px;
@@ -48,42 +37,36 @@
     margin: 0;
     
 }
-.header button{
-    border-radius: 8px;
-    outline-color: #ff4fa3;
-}
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 50px;
+  background-color:#ff69b4;
+  color: white;
+  padding: 10px 20px;
 }
-.logo {
-    margin: 0;
-    font-family: Georgia, serif;
-    font-size: 28px;
-    font-weight: bold;
-    letter-spacing: 1px;
+
+.navbar .logo {
+  font-weight: bold;
+  color: white;
 }
-.nav-links a{
-    text-decoration: none;
-    font-weight: 400;
-    color: white;
-    font-size: 16px;
-    padding:8px 5px;
-    position: relative;
-    transition: 0.4s;
+
+.navbar .nav-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: 500;
 }
-.nav-links a:hover{
-    background-color: white;
-    color: deeppink;
-    border-radius:2px;
+
+.navbar .nav-links a:hover {
+  color: #ffe6f0; 
+}
+
+
+body.home {
+  padding-top: 80px;
 }
 
 h2{
     color: deeppink;
-    margin-bottom: 10px;
-    margin-top: 15px;
+    margin-bottom: 5px;
    
 }
 p{
@@ -106,6 +89,8 @@ ul,ol{
     text-align: center;
     padding: 20px;
     margin-top: 30px;
+    text-align: center;
+    
 }
 /*product*/
 .products{
