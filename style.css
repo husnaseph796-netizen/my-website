@@ -11,6 +11,8 @@ body {
 /*=========HOME===========*/
 .home{
     font-size: 20px;
+    padding-top: 80px;
+    
 }
 .hero {
   padding-top: 20px !important; /* Inasogeza h2 juu zaidi */
@@ -18,16 +20,16 @@ body {
   margin-top: 0 !important;
 }
 
-  .hero h2{
+.hero h2{
     margin-top: 0 !important;
-    text-shadow: none;
+    text-shadow:#000;
     font-size: 55px;
+
 
   }  
 .hero p{
     font-size: 20px;
     max-width: 700px;
-    text-shadow: 2px 2px 5px black;
     margin-top: 2px;
 }
 .header h1{
@@ -38,13 +40,12 @@ body {
     
 }
 .navbar {
-  background-color:#ff69b4;
+  background-color:#f9459f;
   color: white;
   padding: 10px 20px;
 }
 
 .navbar .logo {
-  font-weight: bold;
   color: white;
 }
 
@@ -65,7 +66,7 @@ body.home {
 }
 
 h2{
-    color: deeppink;
+    color: #f9459f;
     margin-bottom: 5px;
    
 }
@@ -84,7 +85,7 @@ ul,ol{
     font-size: 16;
 }
 .footer{
-    background-color: #ff69b4;
+    background-color: #f9459f;
     color: white;
     text-align: center;
     padding: 20px;
@@ -98,7 +99,7 @@ ul,ol{
 }
 .products h2{
     text-align: center;
-    color: #ff1493;
+    color: #ed2d93;
     margin-bottom: 5px;
 }
 .products p{
