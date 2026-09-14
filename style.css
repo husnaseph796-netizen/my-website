@@ -60,7 +60,6 @@ body {
   color: #ffe6f0; 
 }
 
-
 body.home {
   padding-top: 80px;
 }
@@ -94,9 +93,7 @@ ul,ol{
     
 }
 /*product*/
-.products{
-    padding: 0%;
-}
+
 .products h2{
     text-align: center;
     color: #ed2d93;
@@ -111,7 +108,7 @@ ul,ol{
     margin-bottom: 25px;
 }
 .mypro{
-    background-color: antiquewhite;
+    background-color: rgb(252, 247, 241);
 }
 .product-container{
     display: flex;
@@ -160,7 +157,6 @@ ul,ol{
     margin: 20px 0;
 }
 .mission{
-   background: #fff;
    padding: 50px 10%;
    text-align:center;
     padding: 0%;
@@ -203,7 +199,6 @@ ul,ol{
     list-style: none;
 }
 .value li{
-    background-color: white;
     width: 250px;
     color: #e56b6f;
     padding: 15px;
@@ -242,7 +237,8 @@ hr{
     text-align: center;
     font-size: 40;
     margin-bottom: 0%;
-    padding: 0%;
+    margin-left: 5px;
+    padding: 10px;
 }
 .tips-hero{
     display: grid;
@@ -275,6 +271,7 @@ hr{
 .contact-intro{
     font-size: 16px;
     margin-bottom: 2px;
+    padding-top: 30px;
 }
 .contact-info{
     flex: 1;
@@ -282,7 +279,7 @@ hr{
     background: #fff8fc;
     padding: 5px;
     border-radius: 15px;
-    box-shadow: 0 5px 15px rgba(0,0,0,.15);
+    box-shadow: 0 5px 15px rgba(242, 185, 216, 0.15);
     text-align: left;
 }
 .contact-form{
@@ -299,14 +296,4 @@ hr{
     border: 1px solid #ccc;
     border-radius: 8px;
     font-size: 16px;
-}
-.contact-form input[type="submit"]{
-    background: #ff1493;
-    color: white;
-    border: none;
-    cursor: pointer;
-    transition: .3s;
-}
-.contact-form input[type="submit"]:hover{
-    background: #e60073;
 }
